@@ -9,6 +9,7 @@ export default function App11() {
   return (
     <div>
       <h3>This is App11</h3>
+      <h3><b>Concept :</b>This React component changes the "Hello World" text color based on the user's input. The color is stored using useState and applied using useRef on button click. </h3>
       <p>
         <input type="text" onChange={(e)=>setColor(e.target.value)}></input>
         <button onClick={handleSubmit}>Submit</button>
